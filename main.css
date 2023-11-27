@@ -1,0 +1,69 @@
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(75,74,112,1) 50%, rgba(2,0,36,1) 93%);
+}
+
+  button:hover {
+    background-color: #8f8484;
+  }
+  
+  #searchInput{
+    position: fixed;
+    top: 5;
+    left: 25%;
+    width: 50%;
+    height: 40px;
+  }
+
+  #searching{
+    position: fixed;
+    top: 5;
+    left: 20%;
+    height: 35px;  
+}
+
+  img{
+    margin: 10px;
+    max-width:50%;
+    height: 50%;
+  }
+
+  button{
+    cursor:pointer;
+    margin: 2px;
+  }
+
+
+  #titleShop{
+    margin: 0;
+    color: red;
+    text-align: center;
+}
+
+img{
+    cursor: pointer;
+}
+ 
+.product {
+    margin-top: 25px;
+    border: 3px solid rgb(59, 54, 54);
+    text-align: center; /* Center the content for better visibility */
+  }
+
+  #home{
+    font-size: 20;
+    height: 35px;  
+    margin-top: 20;
+  }
+
+  h1,h2,h3,p{
+    color: rgb(200, 214, 224);
+  }
+
+  #sortByPrice{
+    float: right;
+    margin-top: 0px;
+    font-size: 15;
+
+  }
