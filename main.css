@@ -67,3 +67,17 @@ img{
     font-size: 15;
 
   }
+
+  #sorry{
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+  }
+
+  #bikeHome{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 1%;  
+}

@@ -94,10 +94,7 @@ function generateID() {
         })
           
     })
-    if(result === 'empty'){
-        console.log("no products in " + categoryOrName);
-    }
-    else return result 
+    return result 
   }
   
   // Method to sort products by price
@@ -119,6 +116,9 @@ function generateID() {
 
   function displayAll(array){ // display all in the shop list
     $('#shopPage').empty() // we do that to avoid repeatition 
+    if(array.length === 0){
+      $('#shopPage').append(`<h1 id='sorry'>${'Sorry!! No Products Found: ' + $('#searchInput').val()}</h1>`)
+    }
     each(array, function(ele, i){
       $('#shopPage').append(`
       <div class = 'product' id= 'item-${ele.id}'>
