@@ -25,13 +25,7 @@ function generateID() {
   
   // Factory function to create product objects
   function makeSomething(Name, Price, Category, Images) { 
-    var i = 0
-
-  // Function to toggle between images of a product
-  function toggleImage() {
-    i = (i+1) % bike1.Images.length
-    $("#view1").attr("src", bike1.Images[i])
-  }
+  
   // Return a product object
     return {
     id:id(),
@@ -39,7 +33,6 @@ function generateID() {
     Price,
     Category,
     Images,
-    toggleImage
     }
   }
     
