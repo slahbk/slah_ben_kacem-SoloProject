@@ -1,6 +1,5 @@
 
 body{
-    background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(75,74,112,1) 50%, rgba(2,0,36,1) 93%);
 }
 
@@ -81,3 +80,7 @@ img{
     font-style: italic;
     margin-left: 1%;  
 }
+
+a {
+  text-decoration: none ;
+  }
